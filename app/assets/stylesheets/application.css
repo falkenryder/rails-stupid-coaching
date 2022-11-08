@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+ .container {
+  margin: 10px;
+ }
+.container h1 {
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.row a {
+  text-decoration: none;
+  font-size: x-large;
+}
+.foo-row {
+  justify-content: space-around;
+  border-left: 10px solid grey;
+  margin-bottom: 50px;
+}
+.foo-row span {
+  margin-top: 10px;
+}
+.foo-row p {
+  margin-left: 10px;
+  font-size: 30px;
+  font-weight: 300;
+}
+.foo-row.bar-row {
+  background-color: #FFFDE1;
+}
